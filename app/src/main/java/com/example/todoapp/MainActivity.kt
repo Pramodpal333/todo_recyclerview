@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
           todoList.add(newTask)
           etTask.setText("")
-
+          recyclerView.adapter = todoAdapter
       }
 
     }
